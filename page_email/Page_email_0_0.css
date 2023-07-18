@@ -1,0 +1,104 @@
+
+button {
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+    transition: background-color .15s;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+button:hover {
+    background-color: rgb(27, 147, 13);
+    opacity: .8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .15);
+}
+
+button:active {
+    background-color: rgb(27, 147, 13);
+    opacity: .4;
+}
+
+
+.div {
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    grid-gap: 0
+    
+
+}
+
+
+.div1 {
+    
+    width: 700px;
+    justify-content: bottom;
+    align-items: bottom;
+    align-content: bottom;
+    align-self: bottom;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: bottom;
+    font-weight: lighter;
+   
+    line-height: 24px;
+    display: block;
+
+    margin-bottom: -50px;
+}
+
+.div2 {
+    grid-gap: 0
+}
+
+.div2_1 {
+    grid-gap: 0
+}
+
+.div2_2 {
+    grid-gap: 0
+}
+
+.div3 {
+    height: 5px;
+    justify-content: bottom;
+    align-items: bottom;
+    align-content: bottom;
+    align-self: bottom;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: bottom;
+    font-weight: lighter;
+    width: 700px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: -100px;
+}
+
+.div4 {
+    grid-gap: 0
+}
+
+.copy-button {
+    padding: 10px;
+  }
+

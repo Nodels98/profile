@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+			<title class="title">Eamails</title>
+			<link rel="stylesheet" href="Page_email_0_0.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
+			 rel="stylesheet">
+
+			 <script>
+				function copyButtonText(button) {
+				  var buttonText = button.innerText;
+				  navigator.clipboard.writeText(buttonText)
+					.then(function() {
+					  alert(buttonText + " Copied to your clipboard ");
+					})
+					.catch(function(error) {
+					  console.error("Copy failed:", error);
+					});
+				}
+			  </script>
+
+    </head>
+
+
+
+    <body style="background-image: url('m_cloud.jpg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height: 900px; ">
+
+	<div class="div">
+
+
+	<div class="div1">
+		Academic Emails:
+	
+	</div>
+
+	<div class="div2">
+
+		<div class="div2_1">
+		<button class="Academic1_button" onclick="copyButtonText(this)">
+			a.montazeri95@sharif.ir
+
+		</button>
+		</div>
+
+		<div class="div2_2">
+		<button class="Academic2_button" onclick="copyButtonText(this)">
+	
+			amir.montazerii@aut.ir
+		</button>
+		</div>
+	</div>
+
+	<div class="div3">
+		Main Email:
+
+	</div>
+
+	<div class="div4">
+
+		<button class="Main_button" onclick="copyButtonText(this)">
+			379.montazeri@gmail.com
+		</button>
+
+	</div>
+
+	
+	</div>
+
+
+
+		
+    </body>
+</html>
+
+
+
