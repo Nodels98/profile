@@ -32,15 +32,9 @@ button:active {
     opacity: .4;
 }
 
-.CV_button {
-    width: 70px;
-    border-radius: 50px;
+.sayno_button {
+    background-color: rgb(213, 30, 2);
 }
-.job_CV_button {
-    width: 100px;
-    border-radius: 50px;
-}
-
 
 
 .div1 {
@@ -86,6 +80,10 @@ button:active {
     justify-content: center;
     align-items: center;
     padding: 20px 20px 20px 20px;
+    border-style: double;
+    border-color: coral;
+    border-radius: 50px;
+    margin-top: 17px;
 
 }
 
@@ -109,18 +107,8 @@ button:active {
 
 @media (max-width: 750px) {
 
-    .div3_1 {
-        display: grid;
-        grid-template-columns: 1fr;
-  
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        align-self: center;
-        align-content: center;
-    }
     
-    .div3_2 {
+    .div3 {
         display: grid;
         grid-template-columns: 1fr;
  
@@ -130,70 +118,33 @@ button:active {
         align-self: center;
         align-content: center;
     }
-
-
-
 }
-
 @media (min-width: 1000px) {
 
-    .div3_1 {
+    .div3 {
 
         display: grid;
-        grid-template-columns: 1fr 1fr 2fr 2fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         align-items: center;
-        grid-gap: 0
+       
     }
-    
-
-    .div3_2 {
-
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 0
-
-    }
-
-
-
-
 }
-
 @media (min-width: 751px) and (max-width: 999px) {
 
-    .div3_1 {
+    .div3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+     
         justify-content: center;
         align-items: center;
         text-align: center;
         align-self: center;
         align-content: center;
     }
-    
-    .div3_2 {
-        gap: 10px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        align-self: center;
-        align-content: center;
-
-    }
-
-
-
 }
-
-
-
 .circle-border {
     border-radius: 50%;
-    border: 20px solid rgba(255, 230, 0, 0.76);
+    border: 7px solid rgba(255, 230, 0, 0.76);
     display: flex;
     justify-content: center;
 }
